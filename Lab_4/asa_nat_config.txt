@@ -1,0 +1,42 @@
+object network LOCAL_source
+ host source
+ nat (inside,outside) static interface service tcp static 995
+object network LOCAL_source
+ host source
+ nat (inside,outside) static interface service tcp static 20065
+object network LOCAL_source
+ host source
+ nat (inside,outside) static interface service tcp static 443
+object network LOCAL_source
+ host source
+ nat (inside,outside) static interface service tcp static 2565
+object network LOCAL_source
+ host source
+ nat (inside,outside) static interface service tcp static 563
+object network LOCAL_source
+ host source
+ nat (inside,outside) static interface service tcp static 3389
+object network LOCAL_source
+ host source
+ nat (inside,outside) static interface service tcp static 12220
+object network LOCAL_source
+ host source
+ nat (inside,outside) static interface service tcp static 25565
+object network LOCAL_source
+ host source
+ nat (inside,outside) static interface service tcp static 220
+object network LOCAL_source
+ host source
+ nat (inside,outside) static interface service tcp static 80
+object network LOCAL_source
+ host source
+ nat (inside,outside) static interface service tcp static 10995
+object network LOCAL_source
+ host source
+ nat (inside,outside) static interface service tcp static 22
+object network LOCAL_source
+ host source
+ nat (inside,outside) static interface service tcp static 22
+object network LOCAL_source
+ host source
+ nat (inside,outside) static interface service tcp static 80
